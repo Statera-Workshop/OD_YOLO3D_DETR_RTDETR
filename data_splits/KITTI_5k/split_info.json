@@ -1,0 +1,39 @@
+{
+  "name": "KITTI_5k",
+  "created": "2026-09-28T11:35:10",
+  "source": "/home/minsoogo/Physical_AI/datasets/KITTI_Object/training",
+  "seed": 777,
+  "total_labeled": 7481,
+  "trainval": 5011,
+  "test": 2470,
+  "reference": "VOC2007 trainval 5011 / test 4952",
+  "note": "train.txt == trainval.txt, val.txt == test.txt (compatibility aliases)",
+  "sha256_16": {
+    "trainval.txt": "8429bf881e876d37",
+    "test.txt": "03c90d0fb70825f4",
+    "train.txt": "8429bf881e876d37",
+    "val.txt": "03c90d0fb70825f4"
+  },
+  "objects_trainval": {
+    "Car": 19154,
+    "Cyclist": 1079,
+    "DontCare": 7609,
+    "Misc": 681,
+    "Pedestrian": 3014,
+    "Person_sitting": 135,
+    "Tram": 348,
+    "Truck": 712,
+    "Van": 1933
+  },
+  "objects_test": {
+    "Car": 9588,
+    "Cyclist": 548,
+    "DontCare": 3686,
+    "Misc": 292,
+    "Pedestrian": 1473,
+    "Person_sitting": 87,
+    "Tram": 163,
+    "Truck": 382,
+    "Van": 981
+  }
+}
